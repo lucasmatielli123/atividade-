@@ -1,0 +1,97 @@
+/* Tira margens e espaçamentos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo escuro da página inteira */
+body {
+    background-color: #1a1a2e;
+    color: white;
+}
+
+/* ===== BARRA DE TOPO ===== */
+.topo {
+    background-color: #16213e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00ff88;
+}
+
+.carrinho {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ===== TÍTULO ===== */
+.titulo {
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo h1 {
+    color: #00ff88;
+}
+
+/* ===== ÁREA DOS PRODUTOS ===== */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ===== CAIXINHA DE CADA PRODUTO ===== */
+.card {
+    background-color: #84fab0;
+    color: #1a1a2e;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* ===== BOTÃO COMPRAR ===== */
+.btn-comprar {
+    background-color: #1a1a2e;
+    color: #00ff88;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-comprar:hover {
+    background-color: #00ff88;
+    color: #1a1a2e;
+}

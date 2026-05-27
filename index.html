@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <!-- BARRA DE TOPO -->
+    <header class="topo">
+        <div class="logo">MINHA<span>LOJA</span></div>
+
+        <nav class="carrinho">
+            <span class="icone-carrinho">🛒</span>
+            <span class="contador" id="contador">0</span>
+        </nav>
+    </header>
+
+    <!-- TÍTULO -->
+    <section class="titulo">
+        <h1>Nossos Produtos</h1>
+    </section>
+
+    <!-- LISTA DE PRODUTOS -->
+    <main class="produtos">
+
+        <article class="card">
+            <figure>
+                <img src="image/fone.webp" alt="Fone Bluetooth">
+            </figure>
+            <section class="card-info">
+                <h2>Fone Bluetooth</h2>
+                <p class="preco">R$ 199,90</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho('Fone Bluetooth')">
+                    Comprar
+                </button>
+            </section>
+        </article>
+
+        <article class="card">
+            <figure>
+                <img src="image/telefone.jpg" alt="Smartwatch">
+            </figure>
+            <section class="card-info">
+                <h2>Smartwatch</h2>
+                <p class="preco">R$ 349,90</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho('Smartwatch')">
+                    Comprar
+                </button>
+            </section>
+        </article>
+
+        <article class="card">
+            <figure>
+                <img src="image/mouse gamer.webp" alt="Mouse Gamer">
+            </figure>
+            <section class="card-info">
+                <h2>Mouse Gamer</h2>
+                <p class="preco">R$ 129,90</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho('Mouse Gamer')">
+                    Comprar
+                </button>
+            </section>
+        </article>
+
+        <article class="card">
+            <figure>
+                <img src="image/teclado mecanico.jpg" alt="Teclado Mecânico">
+            </figure>
+            <section class="card-info">
+                <h2>Teclado Mecânico</h2>
+                <p class="preco">R$ 459,90</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho('Teclado Mecânico')">
+                    Comprar
+                </button>
+            </section>
+        </article>
+
+    </main>
+
+    <script src="java.js"></script>
+</body>
+</html>
